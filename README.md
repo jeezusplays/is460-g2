@@ -1,4 +1,4 @@
-# Fake News Detection
+# Emotional Speech and Song Detection
 
 ## About the Project
 
