@@ -1,4 +1,4 @@
-# Emotional Speech and Song Detection
+# Emotional Speech Detection
 
 ## About the Project
 
@@ -28,4 +28,5 @@ Feel free to contact and connect!
 |<img src="https://avatars.githubusercontent.com/u/41113285?v=4" width="100"></img> | Samuel | [![Samuel](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/samchung95) |
 |<img src="https://avatars.githubusercontent.com/u/71541700?v=4" width="100"></img> | Shambhavi | [![Sham](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/po-the-panda-12) |
 |<img src="https://avatars.githubusercontent.com/u/5838225?v=4" width="100"></img> | Darryl | [![Darryl](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/DarrylSSY) |
+|<img src="https://avatars.githubusercontent.com/u/88470259?v=4" width="100"></img> | Elston | [![Elston](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/Swagston20) |
 
