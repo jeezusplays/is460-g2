@@ -15,5 +15,6 @@ dependencies:
   - notebook
   - scikit-learn
   - keras
+  - tensorflow
 
   
