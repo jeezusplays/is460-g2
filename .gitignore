@@ -3,3 +3,4 @@ kaggle
 data_clean.csv
 .idea
 .ipynb_checkpoints
+.DS_Store
