@@ -1,10 +1,21 @@
-# Emotional Speech Detection
+<p align="center"><img src="https://socialify.git.ci/jeezusplays/slay-fake-news/image?description=1&amp;font=Inter&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Plus&amp;pulls=1&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
+
+<h1 align="center" id="title">IS460 - Machine Learning and Applications G2 Project: Emotional Speech Detection</h1>
 
 ## About the Project
 
 ## Built With
 
 ## Getting Started
+
+1. Create Conda environment
+`conda env create -f environment.yml`
+2. Activate Conda environment
+`conda activate mla-env`
+3. Start Jupyter Notebook
+`jupyter notebook`
+4. To add new packages, add it in environment.yml and run
+`conda env update --file environment.yml`
 
 ## Usage
 
