@@ -8,14 +8,14 @@
 
 ## Getting Started
 
-1. Create Conda environment
-`conda env create -f environment.yml`
-2. Activate Conda environment
-`conda activate mla-env`
-3. Start Jupyter Notebook
-`jupyter notebook`
-4. To add new packages, add it in environment.yml and run
-`conda env update --file environment.yml`
+1. Create environment
+`python3 -m venv mla-env`
+2. Activate environment
+`source mla-env/bin/activate`
+3. Install kernel in environment
+`python3 -m ipython kernel install --user --name=mla-env`
+4. To add new packages, add it in requirements and run
+`pip install -r requirements.txt`
 
 ## Usage
 
