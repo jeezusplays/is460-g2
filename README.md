@@ -1,10 +1,35 @@
-# Emotional Speech Detection
+<p align="center"><img src="https://socialify.git.ci/jeezusplays/slay-fake-news/image?description=1&amp;font=Inter&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Plus&amp;pulls=1&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
+
+<h1 align="center" id="title">IS460 - Machine Learning and Applications G2 Project: Emotional Speech Detection</h1>
 
 ## About the Project
 
 ## Built With
 
 ## Getting Started
+
+**1. Create environment**  
+`python -m venv mla-env`  
+
+**2. Activate environment**  
+Windows: `mla-env/Scripts/activate`  
+Mac: `source mla-env/bin/activate` 
+
+**3. Install kernel in environment**  
+`pip install ipython`  
+`pip install ipykernel`  
+`ipython kernel install --user --name=mla-env`  
+
+**4. To add new packages, add it in requirements and run**  
+`pip install -r requirements.txt`  
+
+**5. To run jupyter notebook, run**  
+`jupyter notebook`  
+Ensure that you are using the kernel `mla-env` by
+clicking on  
+`Kernel > Change kernel > mla-env`
+
+
 
 ## Usage
 
