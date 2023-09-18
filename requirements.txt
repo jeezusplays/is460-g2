@@ -1,8 +1,20 @@
-ipykernel==6.25.2
-librosa==0.10.1
-pandas==2.1.0
-matplotlib==3.7.3
-seaborn==0.12.2
-resampy==0.4.2
+ipykernel
+librosa
+pandas
+matplotlib
+seaborn
+resampy
+simplejson
+scipy
+numpy
+hmmlearn
+eyeD3
+pydub
+scikit_learn
+tqdm
+plotly
+pandas
+imblearn
+pyAudioAnalysis
 tensorflow==2.13.0; sys_platform != 'darwin' or platform_machine != 'arm64'
 tensorflow-macos==2.13.0; sys_platform == 'darwin' and platform_machine == 'arm64'
