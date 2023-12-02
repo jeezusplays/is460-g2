@@ -3,10 +3,23 @@
 <h1 align="center" id="title">IS460 - Machine Learning and Applications G2 Project: Emotional Speech Detection</h1>
 
 ## About the Project
+This research project delves into the intricate domain of Speech Emotion Detection, aiming to unravel emotional cues from audio data. It explores various modeling techniques, encompassing deep learning, classical machine learning, and feature selection approaches, to construct robust emotion recognition systems.
+
+Among the models developed, a baseline model using Support Vector Machines (SVM) serves as a comparison standard. SVM, a classical machine learning method, was implemented with a focus on distinctly classifying data points in a multidimensional space. Extensive experimentation was performed, including GridSearch with multiple kernel options. The SVM model was trained on the speech dataset, forming a benchmark for the subsequent models.
+
+To address the challenge of high-dimensional feature space, the feasibility of Principal Component Analysis (PCA) for feature reduction was explored. PCA was applied to the standardized data, yielding a reduced set of principal components while maintaining a desired explained variance. However, subsequent evaluations revealed a slight decrease in model performance, prompting the decision to prioritize a more comprehensive feature set over processing time.
 
 ## Built With
+- `ipykernel`: An IPython kernel for Jupyter used to run Python code cells within Jupyter notebooks.
+- `librosa`: A Python library for audio and music analysis, which provides the building blocks needed to create music information retrieval systems.
+- `pandas`: A powerful data structures and data analysis library for Python.
+- `matplotlib`: A Python 2D plotting library which produces quality figures in a variety of hardcopy formats and interactive environments.
+- `seaborn`: A Python data visualization library based on matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics.
+- `resampy`: Efficient sample rate conversion in Python, which is probably being used to convert the sample rates of audio files.
+- `tensorflow`: An end-to-end open source platform for machine learning, suggesting that machine learning models are part of this project.
 
 ## Getting Started
+To get a local copy up and running, follow these simple steps.
 
 **1. Create environment**  
 ```
@@ -41,8 +54,6 @@ jupyter notebook
 ```  
 - Note: Ensure that you are using the kernel `mla-env` by
 clicking on `Kernel > Change kernel > mla-env`
-
-## Usage
 
 ## Contributing
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
