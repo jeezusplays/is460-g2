@@ -9,27 +9,38 @@
 ## Getting Started
 
 **1. Create environment**  
-`python -m venv mla-env`  
+```
+python -m venv mla-env
+```  
 
 **2. Activate environment**  
-Windows: `mla-env/Scripts/activate`  
-Mac: `source mla-env/bin/activate` 
+- For Windows (Powershell), use: 
+```
+mla-env/Scripts/Activate.ps1
+```  
+- For Mac, use: 
+```
+source mla-env/bin/activate
+``` 
 
-**3. Install kernel in environment**  
-`pip install ipython`  
-`pip install ipykernel`  
-`ipython kernel install --user --name=mla-env`  
+**3. Install kernel in environment** 
+``` 
+pip install ipython  
+pip install ipykernel  
+ipython kernel install --user --name=mla-env
+```
 
 **4. To add new packages, add it in requirements and run**  
-`pip install -r requirements.txt`  
+```
+pip install -r requirements.txt
+```  
 
 **5. To run jupyter notebook, run**  
-`jupyter notebook`  
-Ensure that you are using the kernel `mla-env` by
-clicking on  
-`Kernel > Change kernel > mla-env`
-
-
+```
+jupyter notebook
+```  
+- Note: Ensure that you are using the kernel `mla-env` by
+clicking on `Kernel > Change kernel > mla-env`
 
 ## Usage
 
